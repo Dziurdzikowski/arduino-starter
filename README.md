@@ -11,4 +11,6 @@ sudo chmod -R 777 arduino-1.8.15
 cd arduino-1.8.15
 wget https://downloads.arduino.cc/arduino-cli/arduino-cli_latest_Linux_64bit.tar.gz
 tar -zxf ./arduino-cli_latest_Linux_64bit.tar.gz
+ln -s /opt/arduino-1.8.15/arduino-cli /bin/arduino-cli
+sudo bash -c "arduino-cli completion bash > /etc/bash_completion.d/arduino-cli"
 ```
