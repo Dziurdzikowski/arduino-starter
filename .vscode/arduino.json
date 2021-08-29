@@ -1,5 +1,7 @@
 {
-    "sketch": "app.ino",
+    "sketch": "arduino-starter.ino",
     "configuration": "cpu=atmega328",
-    "board": "arduino:avr:mini"
+    "board": "arduino:avr:mini",
+    "intelliSenseGen": "enable",
+    "port": "/dev/ttyS11"
 }
