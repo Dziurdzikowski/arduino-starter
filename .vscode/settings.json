@@ -1,0 +1,7 @@
+{
+    "arduino.enableUSBDetection": true,
+    "arduino.useArduinoCli": true,
+    "arduino.logLevel": "verbose",
+    "arduino.path": "/opt/arduino-1.8.15/",
+    "arduino.commandPath": "arduino-cli"
+}
